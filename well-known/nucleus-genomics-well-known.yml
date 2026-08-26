@@ -1,0 +1,113 @@
+generated: '2026-08-26'
+method: probed
+source: live HTTP probes of /.well-known/* on every Nucleus Genomics host discovered
+  during the 2026-08-26 enrichment pass
+name: Nucleus Genomics well-known documents
+description: Probe of RFC 8615 /.well-known/ documents across every host Nucleus Genomics
+  controls. One real document was served - an RFC 9116 security.txt on the member
+  application host app.mynucleus.com. The marketing host mynucleus.com serves nothing
+  under /.well-known/. The Vanta-hosted trust center trust.mynucleus.com answers HTTP
+  200 with its single-page-application HTML shell for EVERY path, including paths that
+  cannot exist; those rows are recorded as served-but-not-a-document and are treated
+  as misses.
+hosts:
+- host: mynucleus.com
+  note: Framer-hosted marketing site. Every /.well-known/ path 404s.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: app.mynucleus.com
+  note: Next.js member application. Serves a real RFC 9116 security.txt whose Canonical
+    field names this exact URL.
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: well-known/nucleus-genomics-security.txt
+    content_type: text/plain; charset=UTF-8
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: status.mynucleus.com
+  note: Instatus-hosted status page. Every /.well-known/ path 404s.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: trust.mynucleus.com
+  note: 'FALSE POSITIVE WARNING: Vanta-hosted trust center. Its SPA catch-all answers
+    HTTP 200 with text/html for every /.well-known/ path. None of these are documents.
+    All rows below are misses despite the 200.'
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    content_type: text/html
+    document: false
+    note: SPA HTML shell, not a security.txt
+  - path: /.well-known/openid-configuration
+    status: 200
+    content_type: text/html
+    document: false
+    note: SPA HTML shell, not JSON metadata
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    content_type: text/html
+    document: false
+    note: SPA HTML shell, not JSON metadata
+  - path: /.well-known/api-catalog
+    status: 200
+    content_type: text/html
+    document: false
+    note: SPA HTML shell, not an RFC 9727 api-catalog
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    content_type: text/html
+    document: false
+    note: SPA HTML shell, not JSON
+  - path: /.well-known/agent-card.json
+    status: 200
+    content_type: text/html
+    document: false
+    note: SPA HTML shell, not an A2A AgentCard
+  - path: /.well-known/agent.json
+    status: 200
+    content_type: text/html
+    document: false
+    note: SPA HTML shell, not an A2A AgentCard
+summary:
+  hosts_probed: 4
+  documents_served: 1
+  api_catalog: false
+  agent_card: false
+  openid_configuration: false

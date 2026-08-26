@@ -1,0 +1,5 @@
+# public/.well-known/security.txt
+Contact: mailto:security@mynucleus.com
+Expires: 2027-01-14T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://app.mynucleus.com/.well-known/security.txt

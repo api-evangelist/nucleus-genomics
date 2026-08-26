@@ -1,0 +1,76 @@
+generated: '2026-08-26'
+method: searched
+source: https://mynucleus.com/llms.txt, https://mynucleus.com/whats-included, https://mynucleus.com/products
+name: Nucleus Genomics pricing
+description: 'SCOPE WARNING: Nucleus Genomics publishes NO API and therefore no API
+  plans, tiers, quotas or overage terms. The plans below are the CONSUMER PRODUCT tiers
+  Nucleus publishes for its DNA test kits and membership. They are recorded because
+  they are genuinely published pricing, not because they represent API commercial
+  terms. The detailed kit/membership figures come from the provider''s own llms.txt
+  (self-dated 2025-09-12); the live shop pages render prices client-side and only the
+  "Starting at $499" figure could be read from server-rendered HTML on 2026-08-26.
+  Embryo and IVF+ pricing is not published - those funnels route to a consult.'
+plan_count: 3
+api_plan_count: 0
+currency: USD
+plans:
+- name: Nucleus Health - single kit
+  price: 499
+  currency: USD
+  billing_period: one-time
+  recurring:
+    name: Nucleus membership
+    price: 39
+    currency: USD
+    billing_period: year
+  includes:
+  - At-home cheek-swab collection kit
+  - U.S. prepaid return shipping
+  - 30x whole-genome sequencing (Illumina NovaSeq X)
+  - Health results across 900+ diseases and traits
+  - Raw data download (VCF or FASTQ)
+  notes: HSA/FSA eligible; reimbursement not guaranteed. Nucleus does not provide a
+    Tax ID, diagnostic codes or letters of medical necessity.
+  source: https://mynucleus.com/llms.txt
+- name: Nucleus Family - two-kit partner bundle
+  price: 948
+  currency: USD
+  billing_period: one-time
+  recurring:
+    name: Nucleus membership (x2)
+    price: 39
+    currency: USD
+    billing_period: year
+    quantity: 2
+  includes:
+  - Two at-home collection kits
+  - Carrier screening across 2,000+ inheritable conditions
+  - Partner result syncing
+  source: https://mynucleus.com/llms.txt
+- name: Nucleus Embryo / IVF+
+  price: null
+  currency: USD
+  billing_period: null
+  pricing_published: false
+  includes:
+  - Clinic matching
+  - Carrier screening (2,000+ conditions)
+  - Advanced embryo diagnostics / polygenic embryo screening
+  notes: No price is published. https://mynucleus.com/embryo/shop and /ivf/shop route
+    to a consult or checkout flow that renders client-side.
+  source: https://mynucleus.com/products
+add_ons:
+- name: Genetic counseling (via partner SteadyMD)
+  price: 99
+  currency: USD
+  unit: per one-hour session
+  included_in_membership: false
+  source: https://mynucleus.com/llms.txt
+x-evidence:
+- url: https://mynucleus.com/llms.txt
+  http_status: 200
+- url: https://mynucleus.com/whats-included
+  http_status: 200
+  note: server-rendered text reads "Starting at $499"
+- url: https://mynucleus.com/products
+  http_status: 200

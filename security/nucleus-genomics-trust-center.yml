@@ -1,0 +1,44 @@
+generated: '2026-08-26'
+method: searched
+source: https://trust.mynucleus.com/
+name: Nucleus Trust Center
+description: Nucleus Genomics operates a Vanta-hosted trust center on its own subdomain,
+  trust.mynucleus.com. The page returns HTTP 200 with title "Nucleus Trust Center"
+  and rel=canonical https://trust.mynucleus.com. The document list itself is rendered
+  client-side by the Vanta application and the underlying Vanta trust API returns 401
+  to anonymous callers, so the individual report artifacts (and whether they require
+  an NDA) could not be read without authentication. The certifications recorded below
+  are the ones Nucleus names in its own prose on mynucleus.com, not values scraped from
+  the trust center UI.
+url: https://trust.mynucleus.com
+platform: Vanta
+platform_evidence: page shell loads assets.vanta.com and carries data-slugid it4bbj97jggcpwgm5wh8u
+certifications:
+- name: HIPAA
+  kind: compliance program
+  claimed_by: provider
+  evidence: https://mynucleus.com/privacy-and-security
+- name: CLIA
+  kind: clinical laboratory certification
+  claimed_by: provider
+  evidence: https://mynucleus.com/privacy-and-security
+- name: CAP
+  kind: laboratory accreditation
+  claimed_by: provider
+  evidence: https://mynucleus.com/privacy-and-security
+not_claimed:
+- SOC 2
+- ISO 27001
+- HITRUST
+- PCI DSS
+- FedRAMP
+security_contact: mailto:security@mynucleus.com
+x-evidence:
+- url: https://trust.mynucleus.com/
+  http_status: 200
+  content_type: text/html
+- url: https://mynucleus.com/privacy-and-security
+  http_status: 200
+- url: https://api.vanta.com/v1/trust-center/it4bbj97jggcpwgm5wh8u
+  http_status: 401
+  note: anonymous trust-center data API is gated

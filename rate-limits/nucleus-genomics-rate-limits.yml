@@ -1,0 +1,23 @@
+generated: '2026-08-26'
+method: searched
+source: https://mynucleus.com/llms.txt, sitemap-wide docs sweep of mynucleus.com,
+  /openapi.json + /docs + /api probes on mynucleus.com and app.mynucleus.com
+name: Nucleus Genomics rate limits
+description: Nucleus Genomics publishes no public API, no developer portal and no API
+  reference, so there are no published rate limits, no documented response headers
+  and no documented exhaustion status code. This is an honest zero, not an unchecked
+  field.
+limit_count: 0
+limits: []
+headers: []
+exhaustion_status: null
+note: Re-check this artifact if Nucleus ever ships a developer program. The company's
+  only machine-readable public surface as of 2026-08-26 is an llms.txt, a security.txt
+  and an Instatus status page.
+x-evidence:
+- url: https://mynucleus.com/developers
+  http_status: 404
+- url: https://mynucleus.com/api
+  http_status: 404
+- url: https://mynucleus.com/docs
+  http_status: 404

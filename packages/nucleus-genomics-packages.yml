@@ -1,0 +1,34 @@
+generated: '2026-08-26'
+method: searched
+source: registry.npmjs.org search, pypi.org, api.github.com/orgs/Nucleus-Genomics,
+  https://mynucleus.com/llms.txt
+name: Nucleus Genomics client packages
+description: No first-party Nucleus Genomics SDK or client library was found in any
+  package registry. The npm registry search for "nucleus genomics" returns only
+  unrelated packages from other vendors (a TypeScript framework, an Electron Forge
+  publisher, several design systems, a Block Genomics MCP server). PyPI has no
+  nucleus-genomics or mynucleus project. The company's GitHub organization exists but
+  publishes zero public repositories, so there is no source to package. Nothing is
+  recorded here rather than recording a third-party package as first-party.
+official_package_count: 0
+packages: []
+registries_checked:
+- registry: npm
+  endpoint: https://registry.npmjs.org/-/v1/search?text=nucleus%20genomics
+  result: no first-party package
+- registry: pypi
+  endpoint: https://pypi.org/pypi/nucleus-genomics/json
+  http_status: 404
+  result: absent
+- registry: pypi
+  endpoint: https://pypi.org/pypi/mynucleus/json
+  http_status: 404
+  result: absent
+- registry: github
+  endpoint: https://api.github.com/orgs/Nucleus-Genomics/repos
+  http_status: 200
+  result: 0 public repositories
+x-evidence:
+- url: https://api.github.com/orgs/Nucleus-Genomics
+  http_status: 200
+  note: 'org exists (created 2021-06-29) with public_repos: 0'

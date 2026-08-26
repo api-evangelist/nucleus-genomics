@@ -1,0 +1,39 @@
+generated: '2026-08-26'
+method: searched
+source: https://status.mynucleus.com, https://mynucleus.com/sitemap_en.xml probes
+name: Nucleus Genomics lifecycle
+description: Nucleus Genomics runs a public Instatus status page on its own subdomain.
+  It publishes no API, and therefore no API versioning policy, no deprecation policy,
+  no Sunset/Deprecation header contract (RFC 8594) and no SLA. Probes for /changelog,
+  /releases and /roadmap on mynucleus.com all 404.
+status_page:
+  url: https://status.mynucleus.com
+  platform: Instatus
+  machine_readable: https://status.mynucleus.com/summary.json
+  status_at_probe: UP
+  http_status: 200
+versioning:
+  policy_published: false
+  scheme: null
+  note: No public API, so no API version scheme is published.
+deprecation:
+  policy_published: false
+  sunset_header: false
+  deprecation_header: false
+  note: No deprecation policy page was found; /changelog, /releases and /roadmap 404
+    on mynucleus.com.
+sla:
+  published: false
+changelog:
+  published: false
+  note: 'The company publishes press and blog content (https://mynucleus.com/press,
+    https://mynucleus.com/blog) but no dated product or API changelog.'
+x-evidence:
+- url: https://status.mynucleus.com
+  http_status: 200
+- url: https://status.mynucleus.com/summary.json
+  http_status: 200
+- url: https://mynucleus.com/changelog
+  http_status: 404
+- url: https://mynucleus.com/roadmap
+  http_status: 404

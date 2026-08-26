@@ -1,0 +1,207 @@
+# Nucleus — llms.txt
+
+> Nucleus is an all‑in‑one, physician‑ordered **DNA health test** built on **30× whole‑genome sequencing (WGS)** to help families have healthy children, individuals live healthier longer, and IVF patients make more informed embryo choices. Sequenced in the U.S.; HIPAA compliant; CLIA certified; CAP accredited.
+Last updated: 2025‑09‑12
+Brand synonyms: Nucleus, Nucleus Genomics
+
+---
+
+## TL;DR Key Facts
+- **What we do:** Consumer‑accessible, clinical‑grade **whole‑genome** testing (100% of your DNA; 30× depth) with personalized health, family planning, and advanced IVF support.
+- **Products:** **Health** (disease risk & traits), **Family** (carrier screening for future kids), **IVF+** (genetics‑forward IVF package).
+- **Accuracy:** WGS > **99.9%** analytical accuracy (per product materials).
+- **Coverage:** Health results screen **900+ diseases**; Family/Carrier screening considers **2,000+ conditions** you and your partner could pass on; IVF+ uses **advanced embryo diagnostics** with **2,000+ factors** considered for selection.
+- **Tech & quality:** **30× WGS** on **Illumina NovaSeq X**; sequencing performed **in the U.S.**; **HIPAA compliant**, **CLIA certified**, **CAP accredited**.
+- **Value:** Example “buy separately” costs—WGS $2,500 + cancer $300 + heart $300 + neurology $250 = **$3,350** (reference pricing as of June 2024). Nucleus test **$499** (+ membership).
+- **Pricing (kits):** 1 kit **$499** **+ $39/yr** membership. 2 kits **$948** (for partners) **+ two $39/yr memberships**.
+- **Perks:** Free shipping; HSA/FSA eligible (reimbursement not guaranteed).
+- **Availability:** Typical timeline: kit delivery **3–5 business days**; lab sequencing & analysis **4–6 weeks** after sample receipt.
+- **Genetic counseling:** Available via partner **SteadyMD** — **$99** per one‑hour session (not included in membership).
+- **Data access:** You can **download** your data anytime (**VCF** or **FASTQ**).
+
+---
+
+## Products & Use Cases
+
+### Health — “Live healthier, longer”
+- **Purpose:** Personalized insights for **900+ diseases** and health traits using your whole genome + reported lifestyle factors.
+- **Examples:** Polygenic disease risks (e.g., coronary artery disease, type 2 diabetes), traits, and insights (e.g., alcohol response).
+- **What you get:** Clear risk summaries, lifestyle context (e.g., age/BMI/cholesterol), and guidance to discuss with your clinician.
+
+### Family — “Have healthy kids”
+- **Purpose:** **Carrier screening** before pregnancy to uncover **2,000+ conditions** you and a partner could pass on.
+- **For couples:** Option to **sync partner results**; two‑kit bundle available.
+
+### IVF+ — “IVF done right”
+- **What it is:** An IVF package designed for **genetic optimization** and peace of mind across the full journey.
+- **Flow:** (1) Match with a clinic → (2) Screen for **2,000+** inheritable conditions → (Optional) Compatible donor matching → (3) Begin cycle(s) → (4) **Advanced embryo diagnostics** to help choose the embryo that’s best for you → (5) Aim for a healthy pregnancy and baby.
+- **Illustrative effects shown in UI:** examples like **−1% Alzheimer’s**, **−4% breast cancer**, **−2% Parkinson’s**, **−9% type 2 diabetes**, **+4 inches height** (illustrative/indicative).
+- **Outcomes:** IVF+ “can increase chances of a successful pregnancy by **up to 20%**.”¹
+- **Partner stats:** **120,000+ embryos tested** through lab partner; **2,000+ IVF cycles** with partner clinic; **95%** of patients recommend the clinic partner.
+
+---
+
+## Pricing & Value
+
+**Kits & Membership**
+- **1 kit:** **$499** + **$39/year membership**.
+- **2 kits:** **$948** + **two $39/year memberships** (partner bundle).
+- **Includes:** At‑home cheek‑swab kit, U.S. prepaid return shipping, whole‑genome sequencing, secure results.
+- **HSA/FSA:** Eligible. You may pay with your HSA/FSA card or seek reimbursement via your invoice.  
+  • Nucleus does **not** provide a Tax ID, diagnostic codes, or letters of medical necessity. **Reimbursement not guaranteed**; confirm with your provider.
+
+**Comparative Costs (buying components separately)**
+- Whole‑genome sequencing: **$2,500**  
+- Cancer screening: **$300**  
+- Heart screening: **$300**  
+- Neurology screening: **$250**  
+**Total:** **$3,350** (vs. **$499** for Nucleus).  
+*Reference pricing as of June 2024 (Blueprint Genomics & Invitae).*
+
+---
+
+## How it Works (end‑to‑end)
+1) **Order** your kit (ships in **3–5 business days**).  
+2) **Collect** a quick **cheek‑swab** sample at home; mail back with prepaid envelope.  
+3) **Sequence & analyze** at the lab (**30× WGS**; turnaround typically **4–6 weeks** after sample receipt).  
+4) **Review** personalized results in your account; schedule **optional** genetic counseling (**$99/hr**) if desired.  
+5) **Update**: Results evolve as research improves; you may see updates over time.
+
+---
+
+## Technology, Quality & Security
+- **Whole‑genome coverage:** **100% of your DNA** vs. typical genotyping tests that sample **<0.1%**.  
+- **Platform:** **Illumina NovaSeq X**; **30×** mean depth.  
+- **Clinical posture:** **HIPAA compliant**, **CLIA certified**, **CAP accredited**.  
+- **Data control:** Download your raw data (**VCF** or **FASTQ**) anytime.
+
+
+---
+
+## FAQs (concise)
+**How is Nucleus different from 23andMe or Ancestry?**  
+Most consumer tests only look at a tiny fraction of your genome (**<0.1%**). Nucleus performs **30× whole‑genome sequencing** (all ~6B letters) for broader medical insight.
+
+**What will my results tell me?**  
+Personalized risk screens for **900+ diseases** (Health), carrier screening for **2,000+ conditions** (Family), and IVF+ insights for embryo selection (2,000+ factors), plus trait insights and lifestyle context.
+
+**How long does it take?**  
+Kits arrive in **3–5 business days**; after the lab receives your sample, sequencing & analysis typically take **4–6 weeks**.
+
+**Is genetic counseling included?**  
+Available via **SteadyMD** at **$99/hour** (not included in membership).
+
+**Can I download my DNA?**  
+Yes — **VCF** or **FASTQ** from your account at any time.
+
+---
+
+## Team & Advisors (selection)
+- **Lasse Folkersen, Ph.D.** — Chief Scientific Officer; formerly lead scientist at the Danish National Genome Center; author of 100+ peer‑reviewed publications; pioneer of a large open‑source genetic analysis site.  
+- **Barry Starr, Ph.D.** — Former Director of Outreach, Stanford Dept. of Genetics; former Director of Science Communications, Ancestry Health.  
+- **Robert Plomin, Ph.D.** — Professor, King’s College London; widely cited behavioral geneticist.  
+- **Margit Burmeister, Ph.D.** — Professor, University of Michigan Medical School.  
+- **Jerry Lanchbury, Ph.D.** — Former Chief Scientific Officer, Myriad Genetics.  
+Founder: **Kian Sadeghi**.
+
+---
+
+## Press Mentions (selection)
+- **WSJ*: Longevity now a factor when picking an embryo for IVF.  
+- **TechCrunch**: Nucleus Genomics lands funding to help people assess specific disease risks.  
+- **New Scientist**: New DNA tests predict disease risk — are we ready for them?  
+- **Illumina**: Feature on making WGS accessible.
+
+---
+
+## Testimonials (selection)
+- ‘Just found that my genetic risk of diabetes is higher than 99.9% who share the same ancestry as me. This stuff is priceless.’ — **Yasir A**  
+- ‘I discovered I was at a very high risk for a condition I’d never even heard of—Hereditary Hemochromatosis—which would ultimately change my life..’ — **Ethan C**  
+- ‘The test also picked up my rare genetic condition—this is an incredible test! It’s actually my fourth DNA test, and the only one that identified it.’ — **Irina S**  
+
+---
+
+## Related Paths (if present on your site)
+/family
+/family/shop
+/health/shop
+/ivf
+/about
+/science
+
+---
+
+## Machine‑Readable Facts (JSON)
+
+```json
+{
+  "brand": "Nucleus",
+  "aka": ["Nucleus Genomics"],
+  "products": {
+    "Health": {
+      "purpose": "Personalized whole-genome health insights",
+      "coverage": "900+ diseases and traits",
+      "tech": "30x whole-genome sequencing (Illumina NovaSeq X)",
+      "accuracy": ">=99.9%",
+      "deliverables": ["risk summaries", "lifestyle-context insights", "downloadable VCF/FASTQ"]
+    },
+    "Family": {
+      "purpose": "Preconception carrier screening",
+      "coverage": "2000+ inheritable conditions",
+      "partner_sync": true
+    },
+    "IVF+": {
+      "purpose": "Genetics-forward IVF package",
+      "steps": ["clinic match", "carrier screening", "optional donor matching", "IVF cycles", "advanced embryo diagnostics", "pregnancy"],
+      "factors_considered": "2000+",
+      "claim_increase_pregnancy_success": "up to 20%"
+    }
+  },
+  "quality": {
+    "sequencing": "30x WGS",
+    "dna_coverage": "100%",
+    "us_sequenced": true,
+    "compliance": ["HIPAA", "CLIA", "CAP"]
+  },
+  "pricing": {
+    "single_kit": {"price_usd": 499, "membership_usd_per_year": 39},
+    "two_kits": {"price_usd": 948, "memberships": 2, "membership_usd_per_year_each": 39},
+    "hsa_fsa_eligible": true,
+    "comparative_components_usd": {"wgs": 2500, "cancer": 300, "heart": 300, "neurology": 250, "total": 3350, "as_of": "2024-06"}
+  },
+  "counseling": {"provider": "SteadyMD", "price_usd_per_hour": 99, "included_with_membership": false},
+  "data_access": ["VCF", "FASTQ"],
+  "investors_sample": ["776 Fund", "Founders Fund", "Thiel Foundation", "Quiet Capital", "Balaji Srinivasan", "Brent Saunders", "Matteo Franceschetti", "Austen Allred", "Alexandra Botez", "Cory Levy", "Packy McCormick"],
+  "press_mentions_sample": ["WSJ", "TechCrunch", "New Scientist", "Illumina"],
+  "founder": "Kian Sadeghi"
+}
+
+EXTENDED
+
+What is Nucleus?
+
+Meet Nucleus, a new kind of genetic test designed to help you live longer and have healthy kids. It’s an all‑in‑one DNA health test: cheek‑swab at home, ship it back, and receive clinical‑grade insights from whole‑genome sequencing.
+
+Why Nucleus vs. other tests?
+
+1,000× more DNA sequenced with Nucleus* — we sequence 100% of your DNA (30×), whereas typical consumer tests read <0.1%. Compared to 23andMe, Ancestry, and similar tests.
+
+Health — Understand your body
+
+Personalized insights combine your unique DNA with lifestyle factors to contextualize risk for conditions such as heart disease, type 2 diabetes, and more. The experience is designed to be incredibly easy and clinical‑grade.
+
+Family — Have healthy children
+
+Before pregnancy, uncover 2,000+ conditions you and your partner could pass on to your kids. Use the two‑kit bundle to sync partner results and plan with clarity.
+
+IVF+ — IVF done right
+
+IVF+ is the first IVF package built for genetic optimization, bringing peace of mind at every step:
+Step 1: Match with the perfect clinic.
+Step 2: Screen for 2,000+ conditions.
+Optional: Access preferred, genetically compatible donors.
+Step 3: Begin your cycle(s).
+Step 4: Choose the best embryo for you with advanced genetic diagnostics.
+Step 5: Have your baby. IVF+ can increase your chances of a successful pregnancy by up to 20%.¹
+Partner stats: 120,000+ embryos tested, 2,000+ IVF cycles, 95% of patients recommend the clinic partner.
+

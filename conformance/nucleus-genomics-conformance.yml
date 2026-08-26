@@ -1,0 +1,72 @@
+generated: '2026-08-26'
+method: searched
+source: https://mynucleus.com/privacy-and-security, https://mynucleus.com/llms.txt,
+  https://mynucleus.com/hipaa-notice, https://trust.mynucleus.com/
+name: Nucleus Genomics conformance and compliance assertions
+description: 'Nucleus Genomics publishes no API contract, so no contract-derived conformance
+  could be asserted: every cross-cutting API standard below is recorded conforms:false
+  with the reason "no published contract". The compliance entries are real, provider-published
+  claims taken verbatim from Nucleus'' own pages. No domain standard was asserted -
+  see domain_standard below.'
+standards:
+- id: oauth2
+  conforms: false
+  evidence: No public API and no OAuth surface. /.well-known/oauth-authorization-server
+    404s on mynucleus.com and app.mynucleus.com.
+- id: oidc
+  conforms: false
+  evidence: /.well-known/openid-configuration 404s on every Nucleus host probed.
+- id: rfc9457
+  conforms: false
+  evidence: No published API contract to carry problem+json responses.
+- id: json:api
+  conforms: false
+  evidence: No published API contract.
+- id: pagination
+  conforms: false
+  evidence: No published API contract.
+- id: idempotency
+  conforms: false
+  evidence: No published API contract, and no documented write surface for third parties.
+- id: rfc9116
+  conforms: true
+  evidence: https://app.mynucleus.com/.well-known/security.txt returns HTTP 200 with
+    Contact, Expires, Preferred-Languages and Canonical fields.
+- id: fhir
+  conforms: false
+  evidence: Nucleus is a direct-to-consumer genomics lab. No FHIR endpoint, capability
+    statement or HL7 claim was found on any Nucleus host, and none is claimed in its
+    own llms.txt.
+compliance:
+- id: hipaa
+  conforms: true
+  claimed_by: provider
+  evidence: 'https://mynucleus.com/privacy-and-security and https://mynucleus.com/llms.txt:
+    "HIPAA compliant". A HIPAA notice is published at https://mynucleus.com/hipaa-notice.'
+- id: clia
+  conforms: true
+  claimed_by: provider
+  evidence: 'https://mynucleus.com/llms.txt: "CLIA certified". Sequencing performed
+    in U.S. labs.'
+- id: cap
+  conforms: true
+  claimed_by: provider
+  evidence: 'https://mynucleus.com/llms.txt: "CAP accredited".'
+- id: state-lab-licensure
+  conforms: true
+  claimed_by: provider
+  evidence: 'https://mynucleus.com/privacy-and-security names state-specific lab licensure
+    and state privacy acts.'
+domain_standard:
+  asserted: false
+  reason: Nucleus publishes no machine-readable contract, so no domain-standard signature
+    (FHIR resource, HL7v2 message type, GA4GH/Phenopacket schema, VCF/FASTQ service
+    API) could be read from a contract. Nucleus does hand its customers standard
+    bioinformatics FILE formats - VCF and FASTQ downloads - but a file format offered
+    through a member UI is not a declared contract conformance and is deliberately
+    not scored as one here.
+  file_formats_offered:
+  - VCF
+  - FASTQ
+  file_formats_evidence: https://mynucleus.com/llms.txt "Data access - You can download
+    your data anytime (VCF or FASTQ)."

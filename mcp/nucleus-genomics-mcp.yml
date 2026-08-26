@@ -1,0 +1,30 @@
+generated: '2026-08-26'
+method: probed
+source: live MCP probes against every Nucleus Genomics host
+name: Nucleus Genomics MCP
+description: Nucleus Genomics ships no MCP server, hosted or local. No candidate tool
+  list could be derived either, because there is no OpenAPI or other machine-readable
+  contract to derive operations from. NO POINTER of type MCPServer is wired in
+  apis.yml - this file records an absence, not a surface.
+status: none
+deployment:
+  mode: none
+  endpoint: null
+  install: null
+  package: null
+  auth: unknown
+  verified: probed
+tools: []
+x-evidence:
+- url: https://mynucleus.com/mcp
+  http_status: 404
+  method: POST tools/list
+- url: https://app.mynucleus.com/mcp
+  http_status: 404
+  method: POST tools/list
+- url: https://mcp.mynucleus.com/
+  http_status: 0
+  note: DNS NXDOMAIN
+- url: https://registry.npmjs.org/-/v1/search?text=nucleus%20genomics
+  http_status: 200
+  note: no first-party MCP package published
