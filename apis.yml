@@ -12,6 +12,17 @@ description: 'Nucleus Genomics (product brand "Nucleus", mynucleus.com) is a New
   trust center. As of this profiling pass Nucleus publishes no public developer API,
   API reference, SDK or machine-readable contract — its published machine surface is
   an llms.txt, a security.txt, an Instatus status page and the trust center.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://framerusercontent.com/images/2PecGEIaH999a7wI1eyPKXhzb4.jpg
 url: https://raw.githubusercontent.com/api-evangelist/nucleus-genomics/refs/heads/main/apis.yml
 x-type: company
