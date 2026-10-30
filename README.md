@@ -64,5 +64,103 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Nucleus Genomics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.hiive.com/securities/nucleus-genomics-stock
+Nucleus Genomics (product brand "Nucleus", mynucleus.com) is a New York based consumer genomics company founded in 2021 by Kian Sadeghi. It sells a physician-ordered, clinical-grade DNA health test built on 30x whole-genome sequencing (Illumina NovaSeq X) across three products: Health (risk and trait insights across 900+ diseases), Family (preconception carrier screening across 2,000+ inheritable conditions) and IVF+ / Nucleus Embryo (genetics-forward IVF including polygenic embryo screening). Members access results through app.mynucleus.com and can download raw data as VCF or FASTQ. Sequencing is performed in the United States; the company states it is HIPAA compliant, CLIA certified and CAP accredited, and publishes a Vanta-hosted trust center. As of this profiling pass Nucleus publishes no public developer API, API reference, SDK or machine-readable contract — its published machine surface is an llms.txt, a security.txt, an Instatus status page and the trust center.
+
+**Areas:** Company · Genomics · Health · Consumer Genetics · Whole Genome Sequencing · Fertility · IVF · Carrier Screening · Precision Medicine · Biotechnology
+
+## Nucleus Genomics on APIs.io
+
+Everything profiled for Nucleus Genomics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/nucleus-genomics/](https://apis.io/providers/nucleus-genomics/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Nucleus Genomics Domain Security](https://apis.io/security/nucleus-genomics/nucleus-genomics-domain-security/)
+- [Nucleus Genomics Trust Center](https://apis.io/security/nucleus-genomics/nucleus-genomics-trust-center/)
+- [Nucleus Genomics Vulnerability Disclosure](https://apis.io/security/nucleus-genomics/nucleus-genomics-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Nucleus Genomics Plans Pricing](https://apis.io/plans/nucleus-genomics/nucleus-genomics-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Nucleus Genomics Rate Limits](https://apis.io/rate-limits/nucleus-genomics/nucleus-genomics-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://mynucleus.com)
+- [Pricing](https://mynucleus.com/products)
+- [Sign up](https://app.mynucleus.com/login)
+- [Support](https://mynucleus.com/contact)
+- [Blog](https://mynucleus.com/blog)
+- [Security](https://app.mynucleus.com/.well-known/security.txt)
+- [Trust centre](https://trust.mynucleus.com)
+- [Terms of service](https://mynucleus.com/terms-of-service)
+- [Privacy policy](https://mynucleus.com/privacy-policy)
+- [GitHub](https://github.com/Nucleus-Genomics)
+- [Status](https://status.mynucleus.com)
+
+## API Evangelist rating
+
+**Kin Score 29.1** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 84.2 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.5** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/nucleus-genomics/](https://apis.io/providers/nucleus-genomics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Nucleus Genomics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/nucleus-genomics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
